@@ -29,21 +29,13 @@ class MainViewController: UIViewController {
     
     
     func createDatePicker() {
-        // create toolbar
-        let toolbar = UIToolbar()
         
-        // adjust size of toolbar to fit the screen
-        toolbar.sizeToFit()
+        let toolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: 45.0))
         toolbar.barTintColor = UIColor.black
         toolbar.tintColor = UIColor.green
-        
-//        // create done bar button
         let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
         let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(doneButtonTapped))
-        
-
-        // assign doneButton to toolbar
-        toolbar.setItems([spacer, doneButton], animated: true)
+        toolbar.items = [spacer, doneButton]
         
         // assign toolbar when tap on textfield
         textFieldInput.inputAccessoryView = toolbar
