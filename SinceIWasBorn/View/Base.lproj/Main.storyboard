@@ -89,7 +89,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNU-oA-HF6">
-                                <rect key="frame" x="20" y="248" width="374" height="300"/>
+                                <rect key="frame" x="50" y="248" width="314" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="1NK-9J-Wwx"/>
                                 </constraints>
@@ -187,14 +187,14 @@
                             <constraint firstItem="qNU-oA-HF6" firstAttribute="top" secondItem="hd6-Yw-sRr" secondAttribute="bottom" constant="50" id="4eF-em-yVV"/>
                             <constraint firstItem="hd6-Yw-sRr" firstAttribute="leading" secondItem="LxL-64-VVD" secondAttribute="leading" constant="60" id="5JC-Gj-mLE"/>
                             <constraint firstItem="Mlt-4L-5NP" firstAttribute="top" secondItem="5Oa-7t-7ja" secondAttribute="bottom" constant="20" id="8r1-f3-Sos"/>
-                            <constraint firstItem="qNU-oA-HF6" firstAttribute="leading" secondItem="LxL-64-VVD" secondAttribute="leading" constant="20" id="GDQ-bN-Bxq"/>
+                            <constraint firstItem="qNU-oA-HF6" firstAttribute="leading" secondItem="LxL-64-VVD" secondAttribute="leading" constant="50" id="GDQ-bN-Bxq"/>
                             <constraint firstItem="LxL-64-VVD" firstAttribute="trailing" secondItem="2r5-sU-07W" secondAttribute="trailing" constant="30" id="Irp-hf-QCt"/>
                             <constraint firstItem="LxL-64-VVD" firstAttribute="trailing" secondItem="Mlt-4L-5NP" secondAttribute="trailing" constant="30" id="KxA-6E-Voa"/>
                             <constraint firstItem="5Oa-7t-7ja" firstAttribute="top" secondItem="2r5-sU-07W" secondAttribute="bottom" constant="20" id="MxR-yo-pY3"/>
                             <constraint firstItem="LxL-64-VVD" firstAttribute="trailing" secondItem="hd6-Yw-sRr" secondAttribute="trailing" constant="60" id="RY5-cG-kxe"/>
                             <constraint firstItem="LxL-64-VVD" firstAttribute="trailing" secondItem="5Oa-7t-7ja" secondAttribute="trailing" constant="30" id="VQW-7m-STR"/>
                             <constraint firstItem="Mlt-4L-5NP" firstAttribute="leading" secondItem="LxL-64-VVD" secondAttribute="leading" constant="30" id="ks8-VC-I0N"/>
-                            <constraint firstItem="LxL-64-VVD" firstAttribute="trailing" secondItem="qNU-oA-HF6" secondAttribute="trailing" constant="20" id="mLQ-0G-6Nc"/>
+                            <constraint firstItem="LxL-64-VVD" firstAttribute="trailing" secondItem="qNU-oA-HF6" secondAttribute="trailing" constant="50" id="mLQ-0G-6Nc"/>
                             <constraint firstItem="2r5-sU-07W" firstAttribute="top" secondItem="qNU-oA-HF6" secondAttribute="bottom" constant="50" id="tgN-z8-fOw"/>
                             <constraint firstItem="hd6-Yw-sRr" firstAttribute="top" secondItem="LxL-64-VVD" secondAttribute="top" constant="60" id="x2E-jO-goH"/>
                             <constraint firstItem="5Oa-7t-7ja" firstAttribute="leading" secondItem="LxL-64-VVD" secondAttribute="leading" constant="30" id="zru-Ty-77W"/>

@@ -24,8 +24,12 @@ class ShowDateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let dateComponents = DateComponents(calendar: calendar, year: Int(showYear), month: Int(showMonth), day: Int(showDay))
+        let composedDate = calendar.date(from: dateComponents)
+        numberFormatter.numberStyle = .decimal
         
-        showDateLabel.text = "Year: \(showYear) Month: \(showMonth) Day: \(showDay)"
+        let components = calendar.dateComponents([.year,.month,.day,.hour,.minute,.second], from: composedDate!, to: now)
+        showDateLabel.text = "\(String(describing: components.year!)) years\n \(String(describing: components.month!)) months\n \(String(describing: components.day!)) days\n \(String(describing: components.hour!)) hours\n \(String(describing: components.minute!)) minutes\n \(String(describing: components.second!)) seconds"
     }
     
     @IBAction func selectedButtonTapped(_ sender: UIButton) {
@@ -37,8 +41,12 @@ class ShowDateViewController: UIViewController {
         let components = calendar.dateComponents([.year,.month,.day,.hour,.minute,.second], from: composedDate!, to: now)
         
         let yearLabel = calendar.dateComponents([.year], from: composedDate!, to: now).year
+        
         let monthLabel = calendar.dateComponents([.month], from: composedDate!, to: now).month
+        let monthLabelFormat = numberFormatter.string(from: NSNumber(value: monthLabel!))
+        
         let dayLabel = calendar.dateComponents([.day], from: composedDate!, to: now).day
+        let dayLabelFormat = numberFormatter.string(from: NSNumber(value: dayLabel!))
         
         let hourLabel = calendar.dateComponents([.hour], from: composedDate!, to: now).hour
         let hourLabelFormat = numberFormatter.string(from: NSNumber(value: hourLabel!))
@@ -51,16 +59,16 @@ class ShowDateViewController: UIViewController {
         
         switch sender.tag {
         case 0:
-            birthDate = "SHOW ALL"
+            birthDate = "\(String(describing: components.year!)) years\n \(String(describing: components.month!)) months\n \(String(describing: components.day!)) days\n \(String(describing: components.hour!)) hours\n \(String(describing: components.minute!)) minutes\n \(String(describing: components.second!)) seconds"
             showDateLabel.text = birthDate
         case 1:
             birthDate = "\(String(describing: yearLabel!)) years"
             showDateLabel.text = birthDate
         case 2:
-            birthDate = "\(String(describing: monthLabel!)) months"
+            birthDate = "\(String(describing: monthLabelFormat!)) months"
             showDateLabel.text = birthDate
         case 3:
-            birthDate = "\(String(describing: dayLabel!)) days"
+            birthDate = "\(String(describing: dayLabelFormat!)) days"
             showDateLabel.text = birthDate
         case 4:
             birthDate = "\(String(describing: hourLabelFormat!)) hours"
