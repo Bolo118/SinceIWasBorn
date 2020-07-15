@@ -14,6 +14,7 @@
 		EC4734E024BE487600B12975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4734DF24BE487600B12975 /* Assets.xcassets */; };
 		EC4734E324BE487600B12975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4734E124BE487600B12975 /* LaunchScreen.storyboard */; };
 		EC4734EB24BE4CA600B12975 /* ShowDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4734EA24BE4CA600B12975 /* ShowDateViewController.swift */; };
+		ECA8B20A24BFC4DB00A82778 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B20924BFC4DB00A82778 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EC4734E224BE487600B12975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC4734E424BE487600B12975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4734EA24BE4CA600B12975 /* ShowDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDateViewController.swift; sourceTree = "<group>"; };
+		ECA8B20924BFC4DB00A82778 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				EC4734DA24BE486F00B12975 /* MainViewController.swift */,
 				EC4734EA24BE4CA600B12975 /* ShowDateViewController.swift */,
+				ECA8B20924BFC4DB00A82778 /* RoundButton.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4734DB24BE486F00B12975 /* MainViewController.swift in Sources */,
+				ECA8B20A24BFC4DB00A82778 /* RoundButton.swift in Sources */,
 				EC4734EB24BE4CA600B12975 /* ShowDateViewController.swift in Sources */,
 				EC4734D724BE486F00B12975 /* AppDelegate.swift in Sources */,
 				EC4734D924BE486F00B12975 /* SceneDelegate.swift in Sources */,
