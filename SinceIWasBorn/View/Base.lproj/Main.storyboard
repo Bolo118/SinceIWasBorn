@@ -44,7 +44,6 @@
                                 </state>
                                 <connections>
                                     <action selector="showTimeButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vBo-N7-aiV"/>
-                                    <segue destination="AUG-AQ-NLV" kind="show" identifier="toShowDate" id="FiS-v7-cnl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -65,6 +64,7 @@
                     <navigationItem key="navigationItem" title="Since I Was Born" id="dV9-O4-djC"/>
                     <connections>
                         <outlet property="textFieldInput" destination="c5C-mI-WaA" id="3bw-jH-c6Q"/>
+                        <segue destination="AUG-AQ-NLV" kind="show" identifier="toShowDate" id="d09-Gw-VyC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

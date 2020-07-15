@@ -24,9 +24,33 @@ class MainViewController: UIViewController {
     }
 
     @IBAction func showTimeButtonTapped(_ sender: UIButton) {
+        let dateFormatter = DateFormatter()
         
+        dateFormatter.dateFormat = "yyyy"
+        let year: String = dateFormatter.string(from: datePicker.date)
+        years = year
+        
+        dateFormatter.dateFormat = "MM"
+        let month: String = dateFormatter.string(from: datePicker.date)
+        months = month
+        
+        dateFormatter.dateFormat = "dd"
+        let day: String = dateFormatter.string(from: datePicker.date)
+        days = day
+        
+        performSegue(withIdentifier: "toShowDate", sender: self)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toShowDate" {
+            let destinationVC = segue.destination as! ShowDateViewController
+            destinationVC.showYear = years
+            destinationVC.showMonth = months
+            destinationVC.showDay = days
+            
+            
+        }
+    }
     
     func createDatePicker() {
         

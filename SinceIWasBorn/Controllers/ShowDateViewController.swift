@@ -9,12 +9,18 @@
 import UIKit
 
 class ShowDateViewController: UIViewController {
-
+    
+    var showYear = " "
+    var showMonth = " "
+    var showDay = " "
+    
+    
     @IBOutlet weak var showDateLabel: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        showDateLabel.text = "\(showYear) \(showMonth) \(showDay)"
     }
    
     @IBAction func selectedButtonTapped(_ sender: UIButton) {
