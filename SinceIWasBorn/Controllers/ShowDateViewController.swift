@@ -30,6 +30,9 @@ class ShowDateViewController: UIViewController {
         
         let components = calendar.dateComponents([.year,.month,.day,.hour,.minute,.second], from: composedDate!, to: now)
         showDateLabel.text = "\(String(describing: components.year!)) years\n \(String(describing: components.month!)) months\n \(String(describing: components.day!)) days\n \(String(describing: components.hour!)) hours\n \(String(describing: components.minute!)) minutes\n \(String(describing: components.second!)) seconds"
+        
+        // create share bar button
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
     }
     
     @IBAction func selectedButtonTapped(_ sender: UIButton) {
@@ -82,6 +85,12 @@ class ShowDateViewController: UIViewController {
         default:
             print("Something else")
         }
+    }
+    
+    // share method
+    @objc func shareTapped() {
+        let vc = UIActivityViewController(activityItems: [birthDate], applicationActivities: nil)
+        present(vc, animated: true)
     }
     
 }
