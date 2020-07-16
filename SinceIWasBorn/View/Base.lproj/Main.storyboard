@@ -103,7 +103,7 @@
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzr-oh-JiJ" customClass="RoundButton" customModule="SinceIWasBorn" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="YEARS"/>
                                         <connections>
                                             <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="pXe-Zy-bGe"/>
@@ -112,7 +112,7 @@
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGP-1e-4Sd" customClass="RoundButton" customModule="SinceIWasBorn" customModuleProvider="target">
                                         <rect key="frame" x="121.5" y="0.0" width="111" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="MONTHS"/>
                                         <connections>
                                             <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="PqG-yW-dIX"/>
@@ -121,7 +121,7 @@
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gav-rg-BtS" customClass="RoundButton" customModule="SinceIWasBorn" customModuleProvider="target">
                                         <rect key="frame" x="242.5" y="0.0" width="111.5" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="DAYS"/>
                                         <connections>
                                             <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="ymv-hI-4OI"/>
@@ -138,7 +138,7 @@
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REs-Yx-QOJ" customClass="RoundButton" customModule="SinceIWasBorn" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="HOURS"/>
                                         <connections>
                                             <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="6nf-hG-jTM"/>
@@ -147,7 +147,7 @@
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEn-Yh-3zg" customClass="RoundButton" customModule="SinceIWasBorn" customModuleProvider="target">
                                         <rect key="frame" x="121.5" y="0.0" width="111" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="MINUTES"/>
                                         <connections>
                                             <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="H4K-r5-TBG"/>
@@ -156,7 +156,7 @@
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMI-MH-m1d" customClass="RoundButton" customModule="SinceIWasBorn" customModuleProvider="target">
                                         <rect key="frame" x="242.5" y="0.0" width="111.5" height="50"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                         <state key="normal" title="SECONDS"/>
                                         <connections>
                                             <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="dZf-X4-6SC"/>
@@ -173,7 +173,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="is2-dA-ycW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                 <state key="normal" title="ALL"/>
                                 <connections>
                                     <action selector="selectedButtonTapped:" destination="AUG-AQ-NLV" eventType="touchUpInside" id="qNm-1U-KhO"/>
